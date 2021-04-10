@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Valera\Documents\VuGen\Scripts\SilkovMax_8_1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\valera\documents\vugen\scripts\silkovmax_8_1\\logfile.log
+c:\users\valera\documents\vugen\scripts\silkovmax_8_1\\combined_SilkovMax_8_1.c
+c:\users\valera\documents\vugen\scripts\silkovmax_8_1\\pre_cci.c

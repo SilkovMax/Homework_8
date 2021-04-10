@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[DeleteAll]
+SnapshotIndex=I1_DeleteAll
+[BuyTicket]
+SnapshotIndex=I1_BuyTicket

@@ -1,0 +1,94 @@
+[
+    {
+        "actionName": "BuyTicket",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t3.inf",
+                "time": 1618056705416
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1618056705475
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1618056705560
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1618056705646
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t7.inf",
+                "time": 1618056705803
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "03.OpenPage_ticket_FindFlight",
+                "rawStartTime": 1618056705299,
+                "rawEndTime": 1618056705418,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00687718391418457
+            },
+            {
+                "transactionName": "04.Create_ticket_FindFlight",
+                "rawStartTime": 1618056705422,
+                "rawEndTime": 1618056705476,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0034837722778320314
+            },
+            {
+                "transactionName": "05.Create_ticket_ChooseCost",
+                "rawStartTime": 1618056705480,
+                "rawEndTime": 1618056705561,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0030975341796875
+            },
+            {
+                "transactionName": "06.Create_ticket_PaymentDetail",
+                "rawStartTime": 1618056705565,
+                "rawEndTime": 1618056705648,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0029571056365966799
+            },
+            {
+                "transactionName": "07.Itinerary",
+                "rawStartTime": 1618056705652,
+                "rawEndTime": 1618056705805,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005044460296630859
+            }
+        ]
+    },
+    {
+        "actionName": "DeleteAll",
+        "steps": [
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: itinerary.pl_2",
+                "infFile": "t8.inf",
+                "time": 1618056770457
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "08_2.DeleteAll",
+                "rawStartTime": 1618056705813,
+                "rawEndTime": 1618056770459,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033745765686035158
+            }
+        ]
+    }
+]
