@@ -10,13 +10,13 @@ ChooseFlight()
     	  	lr_output_message("%d",cost);
 	    	  	if ((cost%2)==0) {
 					
-				    sprintf(arrayCheck, "{Radio_%d}", i); 
+				    sprintf(arrayCheck, "{OFlight_%d}", i); 
 				    check = lr_eval_string(arrayCheck);
-				    lr_output_message ("Φενΰ αθλεςΰ %d: %d $.\n\t--------------------", i, cost);
+				    lr_output_message ("Γ–Γ¥Γ­Γ  Γ΅Γ¨Γ«Γ¥Γ²Γ  %d: %d $.\n\t--------------------", i, cost);
 							
 					checkForChoose=check;
 					lr_output_message("%s",checkForChoose);
-					lr_output_message("Βϋαπΰν πειρ: %d \n\t--------------------", cost);
+					lr_output_message("Γ‚Γ»Γ΅Γ°Γ Γ­ Γ°Γ¥Γ©Γ±: %d \n\t--------------------", cost);
 					lr_save_string(checkForChoose,"checked");
 				
 //				
