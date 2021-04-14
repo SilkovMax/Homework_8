@@ -1,0 +1,75 @@
+[
+    {
+        "actionName": "BuyTicket",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t3.inf",
+                "time": 1618407992703
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1618407992765
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "03.OpenPage_ticket_FindFlight",
+                "rawStartTime": 1618407992589,
+                "rawEndTime": 1618407992705,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005223512649536133
+            },
+            {
+                "transactionName": "04.Create_ticket_FindFlight",
+                "rawStartTime": 1618407992709,
+                "rawEndTime": 1618407992767,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0030324459075927736
+            }
+        ]
+    },
+    {
+        "actionName": "ChooseFlight",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1618407992934
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "05.Create_ticket_ChooseCost",
+                "rawStartTime": 1618407992775,
+                "rawEndTime": 1618407992936,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003749847412109375
+            }
+        ]
+    },
+    {
+        "actionName": "Action1",
+        "steps": [
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1618407993019
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "06.Create_ticket_PaymentDetail",
+                "rawStartTime": 1618407992944,
+                "rawEndTime": 1618407993021,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0028133392333984377
+            }
+        ]
+    }
+]

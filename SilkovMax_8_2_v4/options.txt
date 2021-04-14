@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Valera\Desktop\MaxSilkov\HW8\SilkovMax_8_2_v3
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\valera\desktop\maxsilkov\hw8\silkovmax_8_2_v3\\logfile.log
+c:\users\valera\desktop\maxsilkov\hw8\silkovmax_8_2_v3\\combined_SilkovMax_8_2_v3.c
+c:\users\valera\desktop\maxsilkov\hw8\silkovmax_8_2_v3\\pre_cci.c

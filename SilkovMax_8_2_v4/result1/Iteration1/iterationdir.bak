@@ -1,0 +1,8 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[ChooseFlight]
+SnapshotIndex=I1_ChooseFlight
+[BuyTicket]
+SnapshotIndex=I1_BuyTicket
+[Action1]
+SnapshotIndex=I1_Action1
