@@ -25,7 +25,7 @@ BuyTicket()
 	    "ParamName=OFlight", 
 	    "LB/IC=name=\"outboundFlight\" value=\"",
 	    "RB/IC=\"",
-	    "Ordinal=1",
+	    "Ordinal=All",
 	 LAST);
  
 	 web_reg_save_param_ex(
