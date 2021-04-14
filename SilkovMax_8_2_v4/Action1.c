@@ -25,7 +25,7 @@ Action1()
 	  "Name=numPassengers", "Value=1", ENDITEM, 
 	  "Name=seatType", "Value={TypePref}", ENDITEM, 
 	  "Name=seatPref", "Value={SeatPref}", ENDITEM, 
-	  "Name=outboundFlight", "Value={OFlight}", ENDITEM, 
+	  "Name=outboundFlight", "Value={checked}", ENDITEM, 
 	  "Name=advanceDiscount", "Value=0", ENDITEM, 
 	  "Name=returnFlight", "Value=", ENDITEM, 
 	  "Name=JSFormSubmit", "Value=off", ENDITEM, 
